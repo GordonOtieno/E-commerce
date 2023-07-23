@@ -75,7 +75,123 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              
+              <div className="services d-flex align-items-centre justify-content-between gap-3">
+                <div className="d-flex gap-4 align-items-center">
+                  <img src="./images/service.png" alt="Service1" />
+                  <div>
+                  <h6>Free Shipping</h6>
+                  <p className='p-0'>From all orders of over Ksh. 50000</p>
+                  </div>
+                </div>
+                <div className="d-flex gap-4 align-items-center">
+                  <img src="./images/service-02.png" alt="Service1" />
+                 <div> 
+                  <h6>Daily Service Offers</h6>
+                  <p className='p-0'>Save Upto 25% off</p></div>
+                </div>
+                <div className="d-flex gap-4 align-items-center">
+                  <img src="./images/service-03.png" alt="Service1" />
+                  <div>
+                  <h6>Support 24/7</h6>
+                  <p className='p-0'>Shop with an Expert</p>
+                  </div>
+                </div>
+                <div className="d-flex gap-4 align-items-center">
+                  <img src="./images/service-04.png" alt="Service1" />
+                  <div>
+                  <h6>Affordable Prices</h6>
+                  <p className='p-0'>Get Factory direct prices</p>
+                  </div>
+                </div>
+                <div className="d-flex gap-4 align-items-center">
+                  <img src="./images/service-05.png" alt="Service1" />
+                  <div>
+                  <h6>Secure payment</h6>
+                  <p className='p-0'>100% protected Payment Systems</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="home-wrapper-3 py-5">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12 categories d-flex flex-wrap align-items-center">
+              <div className="d-flex">
+                <div>
+                  <h6>Computers & Laptops</h6>
+                  <p>8 Item(s)</p>
+                </div>
+                <img src="./images/laptop.jpg" alt="computer" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Cameras & Videos</h6>
+                  <p>2 Item(s)</p>
+                </div>
+                <img src="./images/camera.jpg" alt="camera" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Smart TVs</h6>
+                  <p>9 Item(s)</p>
+                </div>
+                <img src="./images/tv.jpg" alt="Tvs" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>SmartWatches</h6>
+                  <p>7 Item(s)</p>
+                </div>
+                <img src="./images/laptop.jpg" alt="watches" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>8 Item(s)</p>
+                </div>
+                <img src="./images/laptop.jpg" alt="music and gaming" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Mobile & Tablets</h6>
+                  <p>6 Item(s)</p>
+                </div>
+                <img src="./images/laptop.jpg" alt="tablets" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>HeadPhones</h6>
+                  <p>6 Item(s)</p>
+                </div>
+                <img src="./images/laptop.jpg" alt="headphones" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Accessories</h6>
+                  <p>6 Item(s)</p>
+                </div>
+                <img src="./images/acc.jpg" alt="Accessories" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Portable Speakers</h6>
+                  <p>3 Item(s)</p>
+                </div>
+                <img src="./images/speaker.jpg" alt="speakers" />
+              </div>
+              <div className="d-flex">
+                <div>
+                  <h6>Home Appliances</h6>
+                  <p>6 Item(s)</p>
+                </div>
+                <img src="./images/homeapp.jpg" alt="home Appli." />
+              </div>
+
+
             </div>
           </div>
         </div>
