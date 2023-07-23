@@ -34,6 +34,20 @@ a {
   gap: 30px;
 }
 
+.button{
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: var(--color-131921);
+  color: white;
+  
+}
+
+.button:hover{
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+
 /* Header start here */
 .header-top-strip {
   background-color: var(--color-131921);
@@ -143,15 +157,46 @@ footer .input-group-text {
   letter-spacing: .4px;
 }
 
-.main-banner-content .buy-now{
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-size: 15px;
+.small-banner-content {
+  top: 25%;
+  left: 10%;
 }
 
-.main-banner-content .buy-now:hover{
-  background-color: transparent;
+.small-banner-content h4 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
   color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
 }
+
+.small-banner-content h5 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  font-style: italic;
+  color: var(--color-bf4800);
+  margin: 0 0 12px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+}
+
+.small-banner-content p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  font-style: italic;
+  color: var(--color-131921);
+  margin: 0 0 12px;
+  letter-spacing: .4px;
+}
+
+.small-banner-img {
+  width: 310px;
+}
+
+
 
 /* Main body ends here */
