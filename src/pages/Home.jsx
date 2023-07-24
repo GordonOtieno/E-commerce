@@ -119,79 +119,81 @@ const Home = () => {
       <section className="home-wrapper-3 py-5">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12 categories d-flex flex-wrap align-items-center">
-              <div className="d-flex">
+            <div className="col-12">
+            <div className="categories d-flex flex-wrap align-items-center justify-content-center">
+              <div className="d-flex align-items-center align-items-center">
                 <div>
                   <h6>Computers & Laptops</h6>
                   <p>8 Item(s)</p>
                 </div>
                 <img src="./images/laptop.jpg" alt="computer" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>Cameras & Videos</h6>
                   <p>2 Item(s)</p>
                 </div>
                 <img src="./images/camera.jpg" alt="camera" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>Smart TVs</h6>
                   <p>9 Item(s)</p>
                 </div>
                 <img src="./images/tv.jpg" alt="Tvs" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>SmartWatches</h6>
                   <p>7 Item(s)</p>
                 </div>
                 <img src="./images/laptop.jpg" alt="watches" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>Music & Gaming</h6>
                   <p>8 Item(s)</p>
                 </div>
                 <img src="./images/laptop.jpg" alt="music and gaming" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>Mobile & Tablets</h6>
                   <p>6 Item(s)</p>
                 </div>
                 <img src="./images/laptop.jpg" alt="tablets" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>HeadPhones</h6>
                   <p>6 Item(s)</p>
                 </div>
                 <img src="./images/laptop.jpg" alt="headphones" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>Accessories</h6>
                   <p>6 Item(s)</p>
                 </div>
                 <img src="./images/acc.jpg" alt="Accessories" />
               </div>
-              <div className="d-flex">
+              {/* <div className="d-flex align-items-center">
                 <div>
                   <h6>Portable Speakers</h6>
                   <p>3 Item(s)</p>
                 </div>
                 <img src="./images/speaker.jpg" alt="speakers" />
               </div>
-              <div className="d-flex">
+              <div className="d-flex align-items-center">
                 <div>
                   <h6>Home Appliances</h6>
                   <p>6 Item(s)</p>
                 </div>
                 <img src="./images/homeapp.jpg" alt="home Appli." />
+              </div> */}
+
               </div>
-
-
+              
             </div>
           </div>
         </div>
