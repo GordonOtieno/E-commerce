@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactStars from 'react-rating-stars-component'
+import { Link } from 'react-router-dom'
 
 const ProductCard = () => {
     // const raingChanged = (newrating) =>{
@@ -7,7 +8,7 @@ const ProductCard = () => {
     // }
   return (
     <div className='col-3'>
-      <div className="product-card">
+      <div className="product-card position-relative">
         <div className="product-image">
             <img src="images/watch.jpg" alt="product image" />
         </div>
@@ -23,6 +24,19 @@ const ProductCard = () => {
             edit={false}
             activeColor='#ffd700'
             />
+        </div>
+        <div className="action-bar position-absolute">
+          <div className="d-flex flex-column gap-3">
+           <Link to='#'>
+            <img src="./images/prodcompare.svg" alt="Add car" />
+            </Link>
+            <Link to='#'>
+            <img src="./images/add-cart.svg" alt="Add car" />
+            </Link>
+            <Link to='#'>
+            <img src="./images/view.svg" alt="Add car" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
