@@ -2,9 +2,9 @@ import React from 'react'
 import ReactStars from 'react-rating-stars-component'
 
 const ProductCard = () => {
-    const raingChanged = (newrating) =>{
-      console.log(newrating);
-    }
+    // const raingChanged = (newrating) =>{
+    //   console.log(newrating);
+    // }
   return (
     <div className='col-3'>
       <div className="product-card">
@@ -18,8 +18,9 @@ const ProductCard = () => {
             <p className="price">Ksh. 5000</p>
             <ReactStars 
             count={5}
-            onChange= {raingChanged}
             size={24}
+            value='3'
+            edit={false}
             activeColor='#ffd700'
             />
         </div>
